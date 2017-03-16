@@ -1,0 +1,81 @@
+/*theme by flambon*/
+/*lux 2 css - type 1*/
+/*date: 06 nov 2013*/
+/*http://flambons.com*/
+
+body {background:#ddd;margin:0;padding:0;color:#333}
+#header {margin:0;padding:0;background:#333}
+.heading {margin:0;padding:7px 5px;font-size:small;border-bottom:1px solid #6b9a01}
+.description {margin:0;padding:7px 5px;font-size:small;background:#6b9a00;color:#030;border-top:1px solid #343333;border-bottom:1px solid #343333}
+#navigation {background:#eee;border-bottom:1px solid #fff;margin:0;padding:0;text-align:center}
+#navigation span {width:32%;display:inline-block;padding:6px 0;text-align:center;margin:0 -1px 0 0;}
+#navigation span+span+span a {content:"Menu"}
+#top-content {display:none}
+#content {margin:0;padding:1px 0;border-top:1px solid #bbb;border-bottom:1px solid #bbb}
+.post-meta .title,.categories {margin:0;padding:2px 0;font-size:small}
+.post .post-content {content:none}
+.post {margin:5px 0;padding:0 0 9px 0;background:#eee;border-top:1px solid #fff;border-bottom:1px solid #ccc;position:relative}
+.post-meta {margin:0;padding:5px 5px 5px 16%;color:#888}
+.post-meta2 {;position:absolute;top:5px;left:3px;right:0;width:10%;text-align:center;padding:2px 3px 0 2px;margin:0;overflow:hidden;background:#6b9a00} 
+.post-meta2 span {display:none}
+.post-meta2 a:after{content:"C";border-top:1px solid #eee;display:block;padding-top:2px;margin:0 -3px;background:#333}
+#pagination-links {border-top:1px solid #fff;text-align:center;margin:0;padding:1px 3px 3px 3px;background:#eee;}
+#pagination-links span {padding:4px;display:inline-block;background:#fffeff;border:1px solid #d1d1d1} 
+#pagination-links a {padding:4px;background:#333;color:#dddddc;display:inline-block;margin-top:2px;text-decoration:none;}
+#navigation-menu h3 a,#comments h3 a,#blogroll_list h3 a {background:#333;margin:0;padding:6px;width:30%;display:block}
+#pagination-links a:hover {text-decoration: none;}
+#blogroll_list h3,#comments h3,#navigation-menu h3 {background:#6b9a00;border:1px solid #343333;border-width:1px 0;margin:0;padding:0;color:#eee;text-shadow:#111 1px 1px 1px}
+ul {margin:5px;padding:0;border:1px solid #bbb;background:#eee}
+#following-list h4,#recent-posts-list h4,#blogroll h3,#category-bottom h3  {background:#6b9a00;border:1px solid #343333;border-width:1px 0;margin:0;padding:0;color:#eee;text-shadow:#111 1px 1px 1px;content:none}
+#recent-posts-list h4:before {background:#333;margin:0;padding:6px;content:"Recent Post";width:30%;display:block}
+#following-list h4:before {background:#333;margin:0;padding:6px;content:"Following";width:30%;display:block}
+#blogroll h3:before {background:#333;margin:0;padding:6px;content:"Blogroll";width:30%;display:block}
+#category-bottom h3:before {background:#333;margin:0;padding:6px;content:"Categories";width:30%;display:block}
+#category-bottom li,#blogroll li,#navigation-menu li {list-style:none;margin:0;padding:5px;border:1px solid #fff;border-color:#fff #fff #d5d5d5 #fff}
+#category-bottom li {text-align:right}
+#category-bottom li a {float:left}
+#blogroll li {padding-right:0}
+#blogroll li:after {content:"";border:5px solid #444;border-color:transparent transparent transparent #444;float:right}
+h6 {margin:0;padding:0}
+#footer {text-align:center;margin:0;padding:5px;background:#333;border-top:3px solid #6b9a01;color:#ccc}
+#footer img {display:none}
+.post-single {background:#eee;border-top:1px solid #fff;border-bottom:1px solid #ccc;padding:0;margin:5px 0}
+.post-single .post-meta {padding:5px !important;}
+.post-single .post-content {margin:0 5px;padding:9px 5px;background:#f5f5f5;border:1px solid #d5d5d5;color:#444}
+#share-buttons {margin:0;padding:5px;}
+#share-buttons:before {content:"Share On : ";}
+#following-list li,#blogroll_list li,#recent-posts-list li {list-style:none;margin:0;padding:5px;border-top:1px solid #fff;border-bottom:1px solid #ddd}
+ol {margin:0;padding:0}
+#comments h4 {background:#eee;margin:0;padding:5px;border-bottom:1px solid #fff}
+#comments h5 {background:#eee;margin:0;padding:5px;border-top:1px solid #ddd;border-bottom:1px solid #ccc}
+.comment-header .title {padding:0 !important;background:transparent !important;border:none !important}
+.comment {background:#eee;margin:5px;padding:0;border:1px solid #bbb}
+.comment-header {margin:0;padding:3px;color:#888;border:1px solid #fff;background:#e5e5e5}
+.comment-content {margin:0;padding:5px 3px;border:1px solid #fff;border-top:1px solid #ddd}
+.comment-header .title:before {content:"";border:5px solid #444;border-color:transparent transparent transparent #444;float:left}
+#comment_form{text-align:left;margin:0;padding:5px}
+#comment_form textarea{width:80%;margin:2px 0;padding:15px 0;background:#fff;border:1px solid #bbb;color:#333}
+#comment_form input[type=text],.mobile_body
+#comment_form select{width:50%;margin:2px 0;padding:3px;background:#fff;border:1px solid #bbb;color:#333}
+#comment_form [type=submit] {margin:2px 0;padding:3px;background:#6b9a00;border:1px solid #5a8900;color:#ffe}
+.post-meta2 a,#pagination-links a,#footer a {text-shadow:none}
+.post-content h3 a,.post-content h4 a,a {color:#497b00;text-shadow:#fff 1px 1px 1px}
+.heading a,h3 a {color:#eee;text-shadow:#000 1px 1px 1px}
+.post-meta2 a {color:#ddd}
+#navigation a,.post-meta .title {color:#222;text-shadow:#fff 1px 1px 1px}
+.highlight {margin:0;padding:6px;text-align:center}
+#comments li {margin:0;padding:5px;list-style:none;text-align:center;background:#fff;border-bottom:1px solid #ccc}
+.post-single .post-content h4 {margin:2px -3px;background:#eee;border:1px solid #ddd;color:#333;padding:4px;text-align:center;}
+.post-single .post-content h4 a {display:inline-table;width:40%} 
+.post-single .post-content h3,.post-single .post-content h1,.post-single .post-content h2,.post-single .post-content h5 {margin:2px -3px;text-align:center;background:#eee;border:1px solid #ddd;color:#333;padding:3px;text-shadow:none} 
+.post-single .post-content h6 {margin:0;background:#6b9a00;border-bottom:2px solid #444;color:#eee;padding:7px 5px;text-shadow:#111 1px 1px 1px}
+.post-content ol {margin:0;padding:0;background:#eee} 
+.post-content li {list-style:none;margin:0;padding:5px;border:1px solid #fff;border-bottom:1px solid #d7d7d7}
+body img {max-width:80%;max-height:80%}
+.post-content,.comment-content {word-wrap:break-word}
+#navigation-menu li h3,#navigation-menu li h5 {margin:-5px;padding:5px;background:#ccc;color:#222;border:none}
+#footer h6:before {content:"fmb_" !important;display:inline !important}
+#footer:after {content:"MUSIK INDONESIA CORPORATIONS" !important;margin:3px -5px -5px -5px;padding:5px;display:block !important;font-size:small !important}
+.date {display:none}
+#footer span {background:transparent !important;border:none !important;color:#ddd !important}
+#blogroll_list li:last-child,#following-list li:last-child,#recent-posts-list li:last-child,#navigation-menu li.last,#blogroll li.last,#category-bottom li.last {border-bottom:1px solid #fff !important}
